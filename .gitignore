@@ -5,3 +5,6 @@ archive/*
 # Ignore R session files
 .RData
 .Rhistory
+
+#ignore package data
+fourchonenv/*
