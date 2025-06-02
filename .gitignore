@@ -1,0 +1,7 @@
+# Ignore contents of the archive folder
+archive/*
+!archive/.gitkeep
+
+# Ignore R session files
+.RData
+.Rhistory
