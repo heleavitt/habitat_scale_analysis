@@ -1,0 +1,12 @@
+Column Name,Column Description [Include meaning of any codes or flags used in data column as well as detection limits.],Units of measurement,missing data/no data value
+site_date_key,unique identifier for sampling event (site and location) ,unitless ,blank = missing data
+Mangrove ,Fraction of total circle area classified as mangrove habitat within range of waters edge,unitless,blank = missing data
+Manmade,Fraction of total circle area classified as manmade habitat within range of waters edge,unitless,blank = missing data
+Saltmarsh ,Fraction of total circle area classified as saltmarsh habitat within range of waters edge,unitless,blank = missing data
+edge_man,"redundant column, identical to Mangrove",unitless,blank = missing data
+edge_mar ,"redundant column, identical to Saltmarsh",unitless,blank = missing data
+edge_l.mangrove ,calculated as edge_man/(edge_man + edge_mar) to get the % of edge habitat classified as mangrove (excluding man-made habitats which were negligible) ,unitless,blank = missing data
+edge_l.marsh ,calculated as edge_mar/(edge_man + edge_mar) to get the % of edge habitat classified as marsh (excluding man-made habitats which were negligible) ,unitless,blank = missing data
+land_water_ratio,"the % of the circle area classified as either marsh, mangrove, or manmade over the total area of the circle (% Land) ",unitless,blank = missing data
+mud ,area of circled area classified as mudflate ,square meters ,blank = missing data
+site_type,"classification of this site ( marsh ifedge_l.marsh >.75 , mixed if between .25 and .75, mangrove if edge_l marsh  <.25)",unitless ,blank = missing data

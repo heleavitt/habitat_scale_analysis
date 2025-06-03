@@ -1,0 +1,2 @@
+"x"
+"1" "PALSP ~ s(edge_perc, k = 4) + s(edge_l.mangrove, k = 4)"

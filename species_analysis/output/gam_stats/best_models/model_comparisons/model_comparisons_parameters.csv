@@ -1,0 +1,5 @@
+﻿Column Name,Column Description [Include meaning of any codes or flags used in data column as well as detection limits.],Units of measurement,missing data/no data value
+best_model ,GAM formula for the model being compared,no units,no missing values
+count ,the number of instances over the course of the all permutations of buffer and edge at this analysis scale that this model was within 2 points of having the lowest AIC score ,count ,no missing values
+r.sq ,the average adjusted GAM r.sq value over all scales. ,no units,no missing values
+mean_buffer,the mean buffer value for all instances where this model was selected. ,meters ,no missing values

@@ -1,0 +1,2 @@
+"x"
+"1" "CALSAP ~ s(edge_perc, k = 4) + s(land_water_ratio, k = 4)"

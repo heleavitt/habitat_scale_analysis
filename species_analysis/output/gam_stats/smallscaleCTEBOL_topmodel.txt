@@ -1,0 +1,2 @@
+"x"
+"1" "CTEBOL ~ s(land_water_ratio, k = 4)"

@@ -1,0 +1,13 @@
+"","formula","aic","r.sq"
+"1","CTEBOL ~ s(edge_perc, k = 4)",247.572600124347,0.0380693051506038
+"2","CTEBOL ~ s(edge_l.mangrove, k = 4)",250.194616029904,-0.0104543483014441
+"3","CTEBOL ~ s(land_water_ratio, k = 4)",239.514841556202,0.131491132044013
+"4","CTEBOL ~ s(edge_perc, k = 4) + s(edge_l.mangrove, k = 4)",249.572572448779,0.0171706243018971
+"5","CTEBOL ~ s(edge_perc, k = 4) + s(land_water_ratio, k = 4)",240.396634592493,0.127726028402873
+"6","CTEBOL ~ s(edge_l.mangrove, k = 4) + s(land_water_ratio, k = 4)",240.095172048106,0.125714815685611
+"7","CTEBOL ~ s(edge_perc, k = 4) + s(edge_l.mangrove, k = 4) + s(land_water_ratio,      k = 4)",241.588546413628,0.114125781263408
+"8","CTEBOL ~ s(edge_perc, k = 4) + s(edge_l.mangrove, k = 4) + ti(edge_l.mangrove,      edge_perc, k = 3)",248.668325502938,0.0415304349808281
+"9","CTEBOL ~ s(edge_l.mangrove, k = 4) + s(land_water_ratio, k = 4) +      ti(edge_l.mangrove, land_water_ratio, k = 3)",241.936339113008,0.0976078540623765
+"10","CTEBOL ~ s(edge_perc, k = 4) + s(edge_l.mangrove, k = 4) + s(land_water_ratio,      k = 4) + ti(edge_l.mangrove, land_water_ratio, k = 3)",243.432742585043,0.0858329174092206
+"11","CTEBOL ~ s(edge_perc, k = 4) + s(edge_l.mangrove, k = 4) + s(land_water_ratio,      k = 4) + ti(edge_l.mangrove, edge_perc, k = 3)",243.339810865016,0.101094951375905
+"12","CTEBOL ~ s(edge_perc, k = 4) + s(edge_l.mangrove, k = 4) + s(land_water_ratio,      k = 4) + ti(edge_l.mangrove, land_water_ratio, k = 3) + ti(edge_l.mangrove,      edge_perc, k = 3)",244.479105048626,0.0601789410823588

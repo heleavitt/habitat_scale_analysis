@@ -1,0 +1,10 @@
+Column Name,Column Description [Include meaning of any codes or flags used in data column as well as detection limits.],Units of measurement,missing data/no data value
+site_date_key,unique hexadecimal identifier for each sampling event ,unitless,blank = no data
+site_number ,unique numerical identifier for each sampling site,unitless,blank = no data
+sample_date ,date and time of sampling in LST format m/dd/yyyy hh:mm,unitless,blank = no data
+sample_trip,"identifier for sampling season, format: yymm",unitless,blank = no data
+water_depth,depth of water above the marsh platform. Taken from center of sampler,cm,blank = no data
+temperature,water temperature at the sampling site ,Celcius ,blank = no data
+salinity,salinity of water at the sampling site,ppt,blank = no data
+lattitude ,lattitude of the sampling site (WGS1984),decimal degrees,blank = no data
+longitude,longitude of the sampling site (WGS1984) ,decmial degrees ,blank = no data

@@ -1,0 +1,8 @@
+"","best_model","count","r.sq","mean_bufer"
+"1","CTEBOL ~ s(edge_l.mangrove, k = 4) + s(land_water_ratio, k = 4)",9,0.147338489864611,150
+"2","CTEBOL ~ s(edge_l.mangrove, k = 4) + s(land_water_ratio, k = 4) +      ti(edge_l.mangrove, land_water_ratio, k = 3)",11,0.278163870812333,463.636363636364
+"3","CTEBOL ~ s(edge_perc, k = 4) + s(edge_l.mangrove, k = 4) + s(land_water_ratio,      k = 4)",6,0.172244822362202,125
+"4","CTEBOL ~ s(edge_perc, k = 4) + s(edge_l.mangrove, k = 4) + s(land_water_ratio,      k = 4) + ti(edge_l.mangrove, edge_perc, k = 3)",2,0.200414525209213,150
+"5","CTEBOL ~ s(edge_perc, k = 4) + s(edge_l.mangrove, k = 4) + s(land_water_ratio,      k = 4) + ti(edge_l.mangrove, land_water_ratio, k = 3)",12,0.239569124188551,316.666666666667
+"6","CTEBOL ~ s(edge_perc, k = 4) + s(land_water_ratio, k = 4)",12,0.169422912461901,175
+"7","CTEBOL ~ s(land_water_ratio, k = 4)",12,0.150913297650258,175

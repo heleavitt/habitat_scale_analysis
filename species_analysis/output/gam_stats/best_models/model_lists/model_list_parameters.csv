@@ -1,0 +1,7 @@
+﻿Column Name,Column Description [Include meaning of any codes or flags used in data column as well as detection limits.],Units of measurement,missing data/no data value
+edge,"distance from the marsh edge in meters used to define edge habitat (1,3,or 5)",meters ,no missing values
+buffer,radius of habitat region around the sample site used to aggregate habitat data. ,meters ,no missing values
+sp,species code for the current analysis,no units,no missing values
+best_model,model formula ,no units,no missing values
+aic,aic score for the model ,no units,no missing values
+r.sq ,the average adjusted GAM r.sq value over all scales. ,no units,no missing values

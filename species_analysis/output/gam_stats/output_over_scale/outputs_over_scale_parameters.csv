@@ -1,0 +1,14 @@
+﻿Column Name,Column Description [Include meaning of any codes or flags used in data column as well as detection limits.],Units of measurement,missing data/no data value
+edge,"distance from the marsh edge in meters used to define edge habitat (1,3,or 5)",meters ,no missing values
+buffer,radius of habitat region around the sample site used to aggregate habitat data. ,meters ,no missing values
+sp,species code for the current analysis,no units,no missing values
+best_model,model formula ,no units,no missing values
+r_sq ,the average adjusted GAM r.sq value over all scales. ,no units,no missing values
+dev_ex,deviance in response variable explained by the model,no units,no missing values
+moran_P,P value for Moran's I test ,no units,no missing values
+cov,column indicating presence of covariance between variables. -Inf indicates no covariance,no units,no missing values
+p.edge_perc,p value for % edge habitat ,no units,no missing values
+p.edge_l.mangrove,p value for % mangrove habitat,no units,no missing values
+p.land_water_ratio,p value for %land ,no units,no missing values
+p.man_lwr,p value for interaction of % mangrove and % land ,no units,no missing values
+p.man_edge,p value for interaction of % mangrove and % edge,no units,no missing values

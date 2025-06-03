@@ -1,0 +1,13 @@
+Column Name,Column Description [Include meaning of any codes or flags used in data column as well as detection limits.],Units of measurement,missing data/no data value
+FID ,Numerical identifier for each polygon,unitless ,
+Shape ,Classification of feature type (all polygons in this case) ,unitless ,
+Area_Pxl ,number of pixels in the polygon ,count,
+Class_name,"Catagories of habitat types: Listed as Mangroves (mangrove vegetation), Spartina (spartina vegetation, equivolent to saltmarsh in the satelite data, Water (open water), Spillbank (Equivolent to man-made) in the satellite data) ",,
+Max_diff,"A Normalized Difference Vegetation Index  created using the Red and NIR color bands. This was used as a parameter for species identification as it helps quantify plant health and habitat composition (Broussard et al., 2018).",,
+Mean_Blue,Mean reflectance in blue color band (444 nm) for the polygon ,,
+Mean_DSM ,Mean digital surface model value for the polygon. Note: these values are not corrected and only represent relative elevation. DSM values broadly represent vegetation heigh but should not be interpreted beyond distinguishing vegetation classes,,
+Mean_Green,Mean reflectance in green  color band (560 nm) for the polygon ,,
+Mean_NDVI,Mean NDVI value for the polygon,,
+Mean_NIR,Mean reflectance in near-infrared color band (842 nm) for the polygon ,,
+Mean_Red,Mean reflectance in red color band (668 nm) for the polygon ,,
+Mean_Red_E,Mean reflectance in Rededge color band (717 nm) for the polygon ,,
