@@ -7,7 +7,7 @@ This repository contains exemplar datasets and code for analyzing the relationsh
 DOI:10.26008/1912/bco-dmo.948167.1
 
 Repository Structure:
-- landscape_analysis/: Scripts and data related to landscape-level habitat analysis.
+- landscape_analysis/: Scripts and data related to landscape-level habitat analysis. Note that these analyses must be run on a high performance computing cluster. Bash code is SLURM submission script to the cluster that identifies code to be run and assigns resources to the job. 
 - species_analysis/: Scripts and data focused on species abundance and distribution analysis.
 - .gitignore: Specifies files and directories to be ignored by Git.
 
