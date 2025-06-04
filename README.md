@@ -3,7 +3,7 @@ Author: Herbert Leavitt
 Last Updated: 6/3/2025
 
 Overview:
-This repository contains datasets and code for analyzing the relationship between habitat structure and species abundance across multiple spatial scales in a rapidly changing estuarine environment near Port Fourchon, Louisiana. The complete dataset is available at:
+This repository contains exemplar datasets and code for analyzing the relationship between habitat structure and species abundance across multiple spatial scales in a rapidly changing estuarine environment near Port Fourchon, Louisiana. Due to file size limitations on GitHub, this repository is designed to show examples of data inputs and produces, but does not contain the complete workflow. The complete dataset is available on BCODMO at:
 DOI:10.26008/1912/bco-dmo.948167.1
 
 Repository Structure:
